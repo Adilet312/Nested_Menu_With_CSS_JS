@@ -1,0 +1,60 @@
+.menu-header{
+  background:url("../assets/banner.jpg");
+  height:15em;
+}
+.menu-logo{
+  font-size: 2em;
+  color:white;
+}
+.search{
+  background: blue;
+}
+.menu-ul{
+  height: 6em;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: white;
+  list-style: none;
+
+}
+.menu-ul li {
+  margin: 2em;
+}
+.menu-ul li a{
+  font-size: 1.5em;
+  font-weight: bold;
+  opacity:0.8;
+}
+.menu-ul li a:hover{
+  opacity:1;
+}
+/*First nested ul*/
+.menu-ul ul{
+  display:none;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  width:80px;
+}
+.menu-ul ul li{
+  list-style: none;
+}
+.menu-ul ul li a{
+  color: white;
+  text-decoration: none;
+}
+.menu-ul li:hover > ul{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+}
+
+.menu-nav{
+ background: rgba(0, 0, 0, 0.5);
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+}
