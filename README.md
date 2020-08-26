@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 * npm run start
 ### Specifications
 * A user can see bigger picture from list of small pictures.
-* ![min-width:620px](nestedMenu.png)
+* ![min-width:620px](nestedMenu.png);
 ## Technologies Used
 
 _HTML, CSS, JavaScript, DOM Elements and Methods, IDE Atom_
